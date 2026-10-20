@@ -20,7 +20,6 @@ def add_member(event):
     master_set.update(new_member)
     
     total = len(master_set)
-    #https://www.w3schools.com/python/ref_func_len.asp
     
     members_list = "</li><li>".join(master_set)
     
